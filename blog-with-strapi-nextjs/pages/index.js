@@ -22,7 +22,7 @@ export default function Home({posts}) {
         <h1>Recent Posts</h1>
         {posts && posts.map((post,i)=>(
           // <Link href={`/${post.Slug}`} key={i}>
-            <div>
+            <div key={i}>
               <a>
                 <p>{post.attributes ? post.attributes.Title:""}</p>
                 <p>{post.attributes ? post.attributes.Content:""}</p>
