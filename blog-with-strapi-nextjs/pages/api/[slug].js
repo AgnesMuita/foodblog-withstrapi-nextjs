@@ -4,9 +4,9 @@ import Link from "next/link"
 function Posts({post}){
   return (
     <div>
-      <Link href={`/`}>
+      {/* <Link href={`/`}> */}
         <a>Go Home</a>
-      </Link>
+      {/* </Link> */}
         <h2>{post.Title}</h2>
     </div>
   )
