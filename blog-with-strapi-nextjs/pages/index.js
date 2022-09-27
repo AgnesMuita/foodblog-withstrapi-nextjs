@@ -21,12 +21,14 @@ export default function Home({posts}) {
       <main className={styles.main}>
         <h1>Recent Posts</h1>
         {posts && posts.map((post,i)=>(
-          <Link href={`/${post.Slug}`} key={i}>
-            <a>
-              <p>{post.attributes ? post.attributes.Title:""}</p>
-              <p>{post.attributes ? post.attributes.Content:""}</p>
-            </a>
-          </Link>
+          // <Link href={`/${post.Slug}`} key={i}>
+            <div>
+              <a>
+                <p>{post.attributes ? post.attributes.Title:""}</p>
+                <p>{post.attributes ? post.attributes.Content:""}</p>
+              </a>
+            </div>
+          // </Link>
         ))}
       </main>
 
