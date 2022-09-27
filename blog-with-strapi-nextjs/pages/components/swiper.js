@@ -14,9 +14,9 @@ export default function Swipers() {
   return (
       <div className="swiper">
         <div className="swiper-wrapper">
-        <Image src={img} width={600} height={400}/>
-        <Image src={img1} width={600} height={400}/>
-        <Image src={img2} width={600} height={400}/>
+        <Image src={img} width={600}  height={400} alt="img"/>
+        <Image src={img1} width={600} height={400} alt="img"/>
+        <Image src={img2} width={600} height={400} alt="img"/>
         </div>
         <div className="swiper-pagination"></div>
           <div className="swiper-button-prev"></div>

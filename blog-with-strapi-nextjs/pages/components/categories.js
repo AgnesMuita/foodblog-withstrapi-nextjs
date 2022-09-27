@@ -15,7 +15,7 @@ function Categories() {
       <div className='allCats'> 
         <div className='categories'>
             <div>
-              <Image src={img2} width={150} height={150} className="img"/>
+              <Image src={img2} width={150} height={150} alt="img" className="img"/>
             </div>
             <div className='catcontent'>
               <h2>Bread</h2>
@@ -26,7 +26,7 @@ function Categories() {
         </div>
         <div className='categories'>
             <div>
-              <Image src={img} width={150} height={150} className="img"/>
+              <Image src={img} width={150} height={150} alt="img" className="img"/>
             </div>
             <div className='catcontent'>
               <h2>Soup</h2>
@@ -37,7 +37,7 @@ function Categories() {
         </div>
         <div className='categories'>
             <div>
-              <Image src={img3} width={150} height={150} className="img"/>
+              <Image src={img3} width={150} height={150} alt="img" className="img"/>
             </div>
             <div className='catcontent'>
               <h2>Breakfast</h2>
@@ -48,7 +48,7 @@ function Categories() {
         </div>
         <div className='categories'>
             <div>
-              <Image src={img4} width={150} height={150} className="img"/>
+              <Image src={img4} width={150} height={150} alt="img" className="img"/>
             </div>
             <div className='catcontent'>
               <h2>Chicken</h2>
@@ -59,7 +59,7 @@ function Categories() {
         </div>
         <div className='categories'>
             <div>
-              <Image src={img5} width={150} height={150} className="img"/>
+              <Image src={img5} width={150} height={150} alt="img" className="img"/>
             </div>
             <div className='catcontent'>
               <h2>Desserts</h2>
@@ -70,7 +70,7 @@ function Categories() {
         </div>
         <div className='categories'>
             <div>
-              <Image src={img6} width={150} height={150} className="img"/>
+              <Image src={img6} width={150} height={150} alt="img" className="img"/>
             </div>
             <div className='catcontent'>
               <h2>Pizza</h2>
@@ -81,7 +81,7 @@ function Categories() {
         </div>
         <div className='categories'>
             <div>
-              <Image src={img7} width={150} height={150} className="img"/>
+              <Image src={img7} width={150} height={150} alt="img" className="img"/>
             </div>
             <div className='catcontent'>
               <h2>Drinks</h2>
